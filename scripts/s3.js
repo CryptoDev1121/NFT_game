@@ -10,6 +10,8 @@ if (!BUCKETNAME) {
   process.exit(1);
 }
 
+
+
 let credentials = {};
 try {
   credentials = JSON.parse(fs.readFileSync("aws.json"));
