@@ -33,8 +33,6 @@ import { v4 as uuidv4 } from "uuid";
 import "./style.scss";
 import { ohm_dai } from "./helpers/AllBonds";
 
-
-
 // 😬 Sorry for all the console logging
 const DEBUG = false;
 
